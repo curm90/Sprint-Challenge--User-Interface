@@ -102,6 +102,10 @@ nav ul li a {
   border-bottom: 1px dashed black;
 }
 
+.top-content-img {
+  margin: 16px 0;
+}
+
 .top-content .text-container {
   width: 48%;
   padding: 0 1%;
