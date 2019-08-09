@@ -120,6 +120,8 @@ nav ul li a {
 .top-content-about .text-container {
   margin: 16px 0;
   margin-left: 16px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .middle-content {
@@ -225,6 +227,13 @@ nav ul li a {
 
 .bottom-content .text-container:last-child {
   padding-right: 0;
+}
+
+.bottom-content-about {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px 0;
+  margin-left: 16px;
 }
 
 footer {
