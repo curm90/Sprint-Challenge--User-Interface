@@ -188,6 +188,31 @@ nav ul li a {
   background: dodgerblue;
 }
 
+.about-main-content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-item-text {
+  margin: 16px 0;
+}
+
+.about-item-text button {
+  margin: 16px 0;
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.about-content-item {
+  width: 45%;
+  border-bottom: 1px dashed black;
+  margin-bottom: 16px;
+}
+
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
